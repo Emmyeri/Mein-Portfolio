@@ -10,18 +10,18 @@ body {
 .navbar-brand {
     font-weight: bold;
 }
-/* Ensure the button is visible with a border and background color */
+/* Make the toggler button more prominent */
 .navbar-toggler {
-    border: 1px solid white !important; /* White border */
-    background-color: rgba(255, 255, 255, 0.2) !important; /* Slightly transparent white */
-    padding: 0.25rem 0.5rem; /* Padding for better visibility */
+    border: none; /* Remove border */
+    background-color: transparent; /* Make button background transparent */
+    padding: 0.5rem 0.5rem;
 }
 
-/* Create a custom white hamburger icon */
+/* Style the icon as three lines */
 .navbar-toggler-icon {
     width: 25px;
-    height: 2px;
-    background-color: white;
+    height: 2px; /* Thin line for traditional appearance */
+    background-color: white; /* White color for lines */
     position: relative;
 }
 
@@ -29,18 +29,18 @@ body {
 .navbar-toggler-icon::after {
     content: '';
     width: 25px;
-    height: 2px;
-    background-color: white;
+    height: 2px; /* Thin line for traditional appearance */
+    background-color: white; /* White color for lines */
     position: absolute;
     left: 0;
 }
 
 .navbar-toggler-icon::before {
-    top: -7px;
+    top: -7px; /* Spacing between top and middle line */
 }
 
 .navbar-toggler-icon::after {
-    top: 7px;
+    top: 7px; /* Spacing between middle and bottom line */
 }
 
 }
