@@ -10,6 +10,9 @@ body {
 .navbar-brand {
     font-weight: bold;
 }
+.navbar-toggler{
+    background-color: #fff;
+}
 .nav-link {
     color: #fff !important;
 }
