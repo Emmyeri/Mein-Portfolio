@@ -10,39 +10,9 @@ body {
 .navbar-brand {
     font-weight: bold;
 }
-/* Make the toggler button more prominent */
-.navbar-toggler {
-    border: none; /* Remove border */
-    background-color: transparent; /* Make button background transparent */
-    padding: 0.5rem 0.5rem;
-}
-
-/* Style the icon as three lines */
-.navbar-toggler-icon {
-    width: 25px;
-    height: 2px; /* Thin line for traditional appearance */
-    background-color: white; /* White color for lines */
-    position: relative;
-}
-
-.navbar-toggler-icon::before,
-.navbar-toggler-icon::after {
-    content: '';
-    width: 25px;
-    height: 2px; /* Thin line for traditional appearance */
-    background-color: white; /* White color for lines */
-    position: absolute;
-    left: 0;
-}
-
-.navbar-toggler-icon::before {
-    top: -7px; /* Spacing between top and middle line */
-}
-
-.navbar-toggler-icon::after {
-    top: 7px; /* Spacing between middle and bottom line */
-}
-
+ .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
 }
 .nav-link:hover {
     color: #f8f9fa !important;
